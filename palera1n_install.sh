@@ -73,8 +73,16 @@ echo "[+] Serviço parado com sucesso!"
 
 cd .. && rm -rf usbmuxd2
 
+clear
+
+cd ..
+
 echo -e "\n[*] Fazendo Download do Palera1n Jailbreak... (Pode demorar um pouco)\n"
-git clone --recursive https://github.com/palera1n/palera1n --quiet
+sudo git clone --recursive https://github.com/palera1n/palera1n -b legacy --quiet
+echo "[+] Palera1n Baixado com Sucesso!"
+
+echo -e "\n[*] Fazendo Download do Palera1n3.0 Jailbreak de iTalogc iOS... (Pode demorar um pouco)\n"
+sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 --quiet
 echo "[+] Palera1n Baixado com Sucesso!"
 
 printf "\033[1;37mAgora use esses commandos:\n"
