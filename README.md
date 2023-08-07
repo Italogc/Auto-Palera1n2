@@ -5,11 +5,11 @@ Código fonte da equipe oficial do palera1n. Recusem imitações!
 
 <h1>RECOMENDADO: Ubuntu_22.04 ou Linux_Mint21+ ou Debian11+</h1>
 
-<h1>SUPORTA: iPhones, iPod Touchs e iPads:</h1>
-<h1>• iOS15.0 ao 16.6b1</h1>
-<h1>• SoC's A8, A8X, A9, A10, A10X e A11</h1>
+<h4>SUPORTA: iPhones, iPod Touchs e iPads:</h4>
+<h4>• iOS15.0 ao 16.6b1</h4>
+<h4>• SoC's A8, A8X, A9, A10, A10X e A11</h4>
 
-<h1>COMANDOS:</h1>
+<h4>COMANDOS:</h4>
 
 <pre>sudo -sH</pre>
 
