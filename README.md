@@ -11,16 +11,15 @@ Código fonte da equipe oficial do palera1n. Recusem imitações!
 
 <h4>COMANDOS:</h4>
 
-<pre>sudo -sH</pre>
-
 <pre>sudo apt-get install git -y</pre>
 
 <pre>sudo git clone --recursive https://github.com/Italogc/Auto-Palera1n-Atualizado</pre>
 
 <pre>cd Auto-Palera1n-Atualizado</pre>
 
-<pre>chmod 777 palera1n_install.sh</pre>
+<pre>sudo chmod 777 palera1n_install.sh</pre>
 
+<pre>sudo ./palera1n_install.sh</pre>
 
 
 <h4>PARA FAZER O JAILBREAK: (no lugar do XX.X.X bote sua versão atual do ios do seu aparelho!</h4>
