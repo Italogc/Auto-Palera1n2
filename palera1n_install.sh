@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #------------------
-#   By John
+#   iTalogc iOS
 #------------------
 
 clear
 
-echo "====================================="
-echo " Welcome to Auto-Palera1n IMPROVED!"
-echo "====================================="
+echo "======================================="
+echo " Bem Vindo ao Auto-Palera1n Atualizado!"
+echo "======================================="
 
-echo -e "\033[0;37m[*] installing dependencies (may take some time)..."
+echo -e "\033[0;37m[*] instalando dependências (pode demorar um pouco)..."
 
 sudo apt-get -qy update > /dev/null
 
@@ -43,11 +43,11 @@ wget https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.2
 													sudo dpkg -i FutureRestore-GUI-Debian-1.98.2.deb >/dev/null && \
 													sudo rm -rf FutureRestore-GUI-Debian-1.98.2.deb
 
-echo "[*] Downloading LibGeneral..."
+echo "[*] Baixando LibGeneral..."
 git clone https://github.com/tihmstar/libgeneral --quiet && \
 					  cd libgeneral/
-echo "[+] LibGeneral downloaded!"
-printf "\n[*] Compiling LIBGENERAL...\n\n"
+echo "[+] LibGeneral Baixado com Sucesso!"
+printf "\n[*] Compilando LIBGENERAL...\n\n"
 sudo ./autogen.sh >/dev/null 2>&1 && \
 	sudo make -s >/dev/null 2>&1 && \
 	sudo make install -s
@@ -56,31 +56,31 @@ cd .. && rm -rf libgeneral/
 
 clear
 
-echo "[*] Downloading usbmuxd2..."
+echo "[*] Baixando usbmuxd2..."
 git clone https://github.com/tihmstar/usbmuxd2 --quiet && \
 						cd usbmuxd2
 
-printf "\n[*] Compiling usbmux2...\n"
+printf "\n[*] Compilando usbmuxd2...\n"
 sudo ./autogen.sh >/dev/null 2>&1 && \
 		make -s >/dev/null 2>&1  && \
 		make install -s >/dev/null 2>&1
 
-printf "\n[+] Usbmux2 compiled!"
-printf "\n[+] installed dependencies!\n\n"
-echo "[*] Exiting usbmux service..."
+printf "\n[+] usbmuxd2 compilado com sucesso!"
+printf "\n[+] todas dependências instaladas com êxito!\n\n"
+echo "[*] Desativando serviços do usbmuxd2 ..."
 systemctl stop usbmuxd >/dev/null
-echo "[+] Stopped service!"
+echo "[+] Serviço parado com sucesso!"
 
 cd .. && rm -rf usbmuxd2
 
-echo -e "\n[*] Downloading Palera1n Jailbreak... (may take some time)\n"
+echo -e "\n[*] Fazendo Download do Palera1n Jailbreak... (Pode demorar um pouco)\n"
 git clone --recursive https://github.com/palera1n/palera1n --quiet
-echo "[+] Palera1n Downloaded!"
+echo "[+] Palera1n Baixado com Sucesso!"
 
-printf "\033[1;37mTye these commands:\n"
+printf "\033[1;37mAgora use esses commandos:\n"
 printf "\n\033[0;32mcd palera1n\n"
 printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
 
-echo "[*] Starting usbmux2..."
+echo "[*] Iniciando usbmuxd2..."
 sudo /sbin/usbmuxd -f -p &>/dev/null 2>&1 &
-echo "[+] Usbmux2 started!"
+echo "[+] Serviço usbmuxd2 Iniciado!"
