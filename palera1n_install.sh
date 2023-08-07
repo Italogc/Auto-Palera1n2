@@ -85,6 +85,10 @@ echo -e "\n[*] Fazendo Download do Palera1n3.0 Jailbreak de iTalogc iOS... (Pode
 sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 --quiet
 echo "[+] Palera1n Baixado com Sucesso!"
 
+cd ..
+
+clear
+
 printf "\033[1;37mAgora use esses commandos:\n"
 printf "\n\033[0;32mcd palera1n\n"
 printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
