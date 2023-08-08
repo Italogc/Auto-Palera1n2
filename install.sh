@@ -75,11 +75,11 @@ cd ..
 
 echo -e "\n[*] Fazendo Download do Palera1n Jailbreak... (Pode demorar um pouco)\n"
 sudo git clone --recursive https://github.com/palera1n/palera1n -b legacy --quiet
-echo "[+] Palera1n Baixado com Sucesso!"
+echo "[+] Palera1n Jailbreak Legacy Baixado com Sucesso!"
 
 echo -e "\n[*] Fazendo Download do Palera1n3.0 Jailbreak de iTalogc iOS... (Pode demorar um pouco)\n"
 sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 --quiet
-echo "[+] Palera1n Baixado com Sucesso!"
+echo "[+] Palera1n-3.0 de iTalogc iOS Baixado com Sucesso!"
 
 cd ..
 
