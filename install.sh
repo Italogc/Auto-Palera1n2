@@ -88,6 +88,8 @@ sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 --quiet
 echo "[+] Palera1n Baixado com Sucesso!"
 
 cd ..
+cd ..
+cd palera1n
 
 clear
 
