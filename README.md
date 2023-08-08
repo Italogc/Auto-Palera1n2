@@ -1,4 +1,4 @@
-# Auto-Palera1n-Atualizado
+# Auto-Palera1n 2.0
 Código fonte da equipe oficial do palera1n. Recusem imitações!
 
 
@@ -13,9 +13,7 @@ Código fonte da equipe oficial do palera1n. Recusem imitações!
 
 <pre>sudo apt-get install git -y</pre>
 
-<pre>sudo git clone --recursive https://github.com/Italogc/Auto-Palera1n-Atualizado</pre>
-
-<pre>cd Auto-Palera1n-Atualizado</pre>
+<pre>sudo git clone --recursive https://github.com/Italogc/Auto-Palera1n2 && cd Auto-Palera1n2</pre>
 
 <pre>sudo chmod 777 palera1n_install.sh</pre>
 
