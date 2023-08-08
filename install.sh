@@ -60,6 +60,26 @@ echo "================================"
 echo " Bem Vindo ao Auto-Palera1n 2.0!"
 echo "================================"
 
+printf "\n A instalar dependências do LibiMobileDevice...\n"
+sudo git clone --recursive https://github.com/libimobiledevice/libimobiledevice.git
+cd libimobiledevice
+sudo ./autogen.sh >/dev/null 2>&1 && \
+sudo make -s >/dev/null 2>&1 && \
+sudo make install -s
+sudo ./autogen.sh --prefix=/opt/local --enable-debug >/dev/null 2>&1 && \
+sudo ./autogen.sh --with-gnutls >/dev/null 2>&1 && \
+sudo ./autogen.sh --with-mbedtls mbedtls_INCLUDES=/opt/local/include mbedtls_LIBDIR=/opt/local/lib >/dev/null 2>&1 && \
+
+cd .. && rm -rf libimobiledevice
+
+cd ..
+
+clear
+
+echo "================================"
+echo " Bem Vindo ao Auto-Palera1n 2.0!"
+echo "================================"
+
 echo "[*] Baixando usbmuxd2..."
 git clone https://github.com/tihmstar/usbmuxd2 --quiet && \
 						cd usbmuxd2
