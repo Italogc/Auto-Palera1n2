@@ -6,9 +6,9 @@
 
 clear
 
-echo "======================================="
-echo " Bem Vindo ao Auto-Palera1n Atualizado!"
-echo "======================================="
+echo "================================"
+echo " Bem Vindo ao Auto-Palera1n 2.0!"
+echo "================================"
 
 echo -e "\033[0;37m[*] instalando dependências (pode demorar um pouco)..."
 
