@@ -15,9 +15,9 @@ Código fonte da equipe oficial do palera1n. Recusem imitações!
 
 <pre>sudo git clone --recursive https://github.com/Italogc/Auto-Palera1n2 && cd Auto-Palera1n2</pre>
 
-<pre>sudo chmod 777 palera1n_install.sh</pre>
+<pre>sudo chmod 777 install.sh</pre>
 
-<pre>sudo ./palera1n_install.sh</pre>
+<pre>sudo ./install.sh</pre>
 
 
 <h4>PARA FAZER O JAILBREAK: (no lugar do XX.X.X bote sua versão atual do ios do seu aparelho!</h4>
