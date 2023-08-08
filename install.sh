@@ -75,7 +75,6 @@ printf "\n Dependências do LibiMobileDevice instaladas com sucesso!\n"
 
 cd .. && rm -rf libimobiledevice
 
-cd ..
 
 clear
 
