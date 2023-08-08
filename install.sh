@@ -93,7 +93,8 @@ echo "[*] Iniciando usbmuxd2..."
 sudo /sbin/usbmuxd -f -p &>/dev/null 2>&1 &
 echo "[+] Serviço usbmuxd2 Iniciado!"
 
-printf "\033[1;37mDe agora em diante use esses commandos:\n"
+printf "\033[1;37mDe agora em diante use esses commandos em novo terminal:\n"
+printf "\033[1;37mTroque XX.X.X pela versão exata do iOS no seu aparelho\n"
 printf "\n\033[0;32mcd palera1n\n"
-printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
+printf "\033[0;32msudo ./palera1n.sh --tweaks XX.X.X\n\n"
 
