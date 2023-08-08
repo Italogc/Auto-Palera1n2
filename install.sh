@@ -4,8 +4,6 @@
 #   iTalogc iOS
 #------------------
 
-clear
-
 sudo apt-get -qy update > /dev/null
 
 clear
@@ -84,8 +82,6 @@ sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 --quiet
 echo "[+] Palera1n Baixado com Sucesso!"
 
 cd ..
-cd ..
-cd palera1n
 
 clear
 
@@ -93,11 +89,11 @@ echo "================================"
 echo " Bem Vindo ao Auto-Palera1n 2.0!"
 echo "================================"
 
-
-printf "\033[1;37mAgora use esses commandos:\n"
-printf "\n\033[0;32mcd palera1n\n"
-printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
-
 echo "[*] Iniciando usbmuxd2..."
 sudo /sbin/usbmuxd -f -p &>/dev/null 2>&1 &
 echo "[+] Serviço usbmuxd2 Iniciado!"
+
+printf "\033[1;37mDe agora em diante use esses commandos:\n"
+printf "\n\033[0;32mcd palera1n\n"
+printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
+
