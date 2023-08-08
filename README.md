@@ -61,6 +61,17 @@ https://github.com/Italogc/Palera1n
 <pre>sudo systemctl disable --now usbmuxd</pre>
 
 
+<h2>5 - Problemas com o libimobiledevice (caso necessário)</h2>
+<h3>5.1 - Abra uma janela de terminal e copie e cole os comandos abaixo:</h3>
+<pre>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</pre>
+
+<h3>5.2 - Aperte "ENTER" no teclado quando pedir...</h3>
+<h3>5.3 - Bote os comandos que pedirem no terminal em 'NEXT STEPS'</h3>
+<h3>5.4 - Depois disso:</h3>
+<pre>sudo apt-get install build-essential</pre>
+<pre>brew install gcc</pre>
+<pre>brew unlink libimobiledevice</pre>
+<pre>brew install --HEAD libimobiledevice</pre>
 
 
 
