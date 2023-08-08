@@ -54,6 +54,12 @@ sudo ./autogen.sh >/dev/null 2>&1 && \
 
 cd .. && rm -rf libgeneral/
 
+clear
+
+echo "================================"
+echo " Bem Vindo ao Auto-Palera1n 2.0!"
+echo "================================"
+
 echo "[*] Baixando usbmuxd2..."
 git clone https://github.com/tihmstar/usbmuxd2 --quiet && \
 						cd usbmuxd2
@@ -85,9 +91,9 @@ cd ..
 
 clear
 
-echo "================================"
-echo " Bem Vindo ao Auto-Palera1n 2.0!"
-echo "================================"
+echo "======================================="
+echo " Obrigado por usar o Auto-Palera1n 2.0!"
+echo "======================================="
 
 echo "[*] Iniciando usbmuxd2..."
 sudo /sbin/usbmuxd -f -p &>/dev/null 2>&1 &
