@@ -7,7 +7,7 @@ https://github.com/Italogc/Palera1n
 <h4>RECOMENDADO: Ubuntu_22.04 ou Linux_Mint21+ ou Debian11+</h4>
 
 <h4>SUPORTA: iPhones, iPod Touchs e iPads:</h4>
-<h4>• iOS15.0 ao 16.6b1</h4>
+<h4>• iOS15.0 ao 16.3.1</h4>
 <h4>• SoC's A8, A8X, A9, A10, A10X e A11</h4>
 
 <h4>COMANDOS:</h4>
