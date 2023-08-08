@@ -6,13 +6,15 @@
 
 clear
 
+sudo apt-get -qy update > /dev/null
+
+clear
+
 echo "================================"
 echo " Bem Vindo ao Auto-Palera1n 2.0!"
 echo "================================"
 
 echo -e "\033[0;37m[*] instalando dependências (pode demorar um pouco)..."
-
-sudo apt-get -qy update > /dev/null
 
 sudo apt-get install -qy git \
                   gcc \
