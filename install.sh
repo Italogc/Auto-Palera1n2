@@ -63,12 +63,15 @@ echo "================================"
 printf "\n A instalar dependências do LibiMobileDevice...\n"
 sudo git clone --recursive https://github.com/libimobiledevice/libimobiledevice.git
 cd libimobiledevice
+echo "[+] LibiMobileDevice Baixado com Sucesso!"
+printf "\n[*] Compilando LibiMobileDevice...\n\n"
 sudo ./autogen.sh >/dev/null 2>&1 && \
 sudo make -s >/dev/null 2>&1 && \
 sudo make install -s
 sudo ./autogen.sh --prefix=/opt/local --enable-debug >/dev/null 2>&1 && \
 sudo ./autogen.sh --with-gnutls >/dev/null 2>&1 && \
 sudo ./autogen.sh --with-mbedtls mbedtls_INCLUDES=/opt/local/include mbedtls_LIBDIR=/opt/local/lib >/dev/null 2>&1 && \
+printf "\n Dependências do LibiMobileDevice instaladas com sucesso!\n"
 
 cd .. && rm -rf libimobiledevice
 
