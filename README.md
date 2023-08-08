@@ -1,6 +1,7 @@
 # Auto-Palera1n 2.0
-Código fonte da equipe oficial do palera1n. Recusem imitações!
-
+Código fonte de jailbreak automatizado da equipe oficial do palera1n. Recusem imitações!
+Todas demais formas de jailbreak do palera1n, visite:
+https://github.com/Italogc/Palera1n
 
 
 <h4>RECOMENDADO: Ubuntu_22.04 ou Linux_Mint21+ ou Debian11+</h4>
