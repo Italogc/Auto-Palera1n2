@@ -56,8 +56,6 @@ sudo ./autogen.sh >/dev/null 2>&1 && \
 
 cd .. && rm -rf libgeneral/
 
-clear
-
 echo "[*] Baixando usbmuxd2..."
 git clone https://github.com/tihmstar/usbmuxd2 --quiet && \
 						cd usbmuxd2
@@ -75,8 +73,6 @@ echo "[+] Serviço parado com sucesso!"
 
 cd .. && rm -rf usbmuxd2
 
-clear
-
 cd ..
 
 echo -e "\n[*] Fazendo Download do Palera1n Jailbreak... (Pode demorar um pouco)\n"
@@ -92,6 +88,11 @@ cd ..
 cd palera1n
 
 clear
+
+echo "================================"
+echo " Bem Vindo ao Auto-Palera1n 2.0!"
+echo "================================"
+
 
 printf "\033[1;37mAgora use esses commandos:\n"
 printf "\n\033[0;32mcd palera1n\n"
