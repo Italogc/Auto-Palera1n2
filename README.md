@@ -73,6 +73,9 @@ https://github.com/Italogc/Palera1n
 <pre>brew unlink libimobiledevice</pre>
 <pre>brew install --HEAD libimobiledevice</pre>
 
+Discord oficial dos desenvolvedores oficiais do Palera1n:
+https://discord.com/invite/kTWu45AKRU
 
+Observação Importante: Tem um usuário fake no github com os nomes de "john" ou "cozmo" que diz que o palera1n é de sua autoria e que vai processar todos que botarem o Palera1n nessa plataforma, então caso vejam esse camarada na plataforma dando os crédito para si próprio ao invés de dar os créditos aos verdadeiros desenvolvedores da ferramenta, sugiro que ignorem esse usuário e me ajudem a denunciarem ele em massa para o github, pois no último natal ele botou no seu github um código malicioso que ferrou muitos aparelhos ios de usuarios pelo mundo. E saibam que eu sou apenas o criador e editor desse código que facilita e muito a vida de muitos usuários para melhor instalação dos documentos e arquivos necessários para utilizar o palera1n no seu sistema linux, e antes de mais nada eu não tiro os créditos por lei dos devidos e oficiais criadores da ferramenta Palera1n, ao invés de imitar tal usuário que se julga o legítimo dono de tal.
 
 
